@@ -1,0 +1,45 @@
+
+:root{
+    --goldenrod2: rgb(251, 199, 65);
+}
+
+body{
+    background:url(CasinoTable.jpg);
+    background-size: cover;
+ 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+
+
+}
+
+p{
+    text-align: center;
+   
+}
+
+#title{
+    text-align: center;
+    color: rgb(251, 199, 65);
+    padding-top: 3rem;
+}
+
+#message-el{
+    font-style: italic;
+}
+button{
+    margin: auto;
+    margin-bottom: .5rem;
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    color: #016f32;
+    background-color: var(--goldenrod2) ;
+    padding: 5px 0px 5px 0px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+
+}
